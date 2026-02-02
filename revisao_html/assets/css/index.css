@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+line-height: 1.6;
+color: black;
+}
+
+main{
+    background-color: white;
+}
+
+header{
+    background: #ed1c2a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    color:white
+}
+
+.logo{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffba0d;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+nav a {
+    columns: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a :hover{
+    color:#ffba0d;
+}
+h1{
+    margin-bottom: 1rem;
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+}
+main p {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: black;
+    margin-bottom: 2.5rem;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    margin-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero img{
+    min-width: 300px;
+    width: 500px;
+    height: auto;
+    border-radius: 12px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.heroText p{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.heroText ul {
+    margin-left: 2rem;
+    margin-right: 1.2rem;
+}
+
+.heroText li {
+   margin-bottom: 0.5rem;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.card{
+    min-width: 250px;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    transition: transform 0.3s;
+    flex:1;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    color: azure;
+}
+.card img {
+    width: 150px;
+    height:150px ;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+#Burguer {
+    background-color: rgb(180, 122, 55);
+}
+
+#fries {
+    background-color: yellow;
+}
+#coke {
+    background-color: gray;
+}
+#ice {
+    background-color: rgb(253, 93, 35);
+}
+#salad {
+    background-color: green;
+}
+#coffee {
+    background-color: rgb(77, 70, 70);
+}
+
+footer {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+@media (max-widht:370px){
+    nav a {
+        font-size: 0.75rem;
+    }
+}
